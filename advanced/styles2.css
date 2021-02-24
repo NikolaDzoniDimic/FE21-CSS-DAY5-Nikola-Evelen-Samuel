@@ -46,8 +46,16 @@ li a:hover {
 }
 
 .article_wrapper {
-    display: flex;
-    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, min-max(300px 1fr)); */
+     height: 31vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "cat2 cat3";
+    justify-content: stretch;
+    /* display: flex; */
+    /* justify-content: space-between; */ *
 }
 
 .article_wrapper img {
@@ -63,9 +71,10 @@ aside img {
 }
 
 .img_p2 {
-    /* margin-top: 50%; */
+    
+    grid-area: cat2;
 }
 
 .img_p3 {
-    margin-top: 50%;
+    grid-area: cat3;
 }
