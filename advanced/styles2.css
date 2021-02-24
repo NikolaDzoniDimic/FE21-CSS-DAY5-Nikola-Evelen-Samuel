@@ -18,7 +18,7 @@ ul {
     justify-content: space-between;
     list-style: none;
     padding: 2rem;
-    box-shadow: 5px 10px 10px #8080804f;
+    box-shadow: 5px 10px 10px #2322224f;
 }
 
 li a {
@@ -55,17 +55,17 @@ li a:hover {
 }
 
 aside img {
-  
     /* margin-top: 50%; */
     float: right;
     margin-left: 1em;
     padding: 5px;
-    width: 50%; 
+    width: 50%;
 }
 
 .img_p2 {
     /* margin-top: 50%; */
 }
-.img_p3{
+
+.img_p3 {
     margin-top: 50%;
 }
