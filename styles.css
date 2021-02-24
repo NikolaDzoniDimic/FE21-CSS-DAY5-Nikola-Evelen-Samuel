@@ -6,10 +6,10 @@ body {
 
 ul {
   display: flex;
-  width: 100%;
   padding: 5%;
   justify-content: center;
   background-color: #e7c814;
+  box-shadow: 5px 10px 10px grey;
 }
 ul li {
   display: flex;
@@ -17,11 +17,31 @@ ul li {
   list-style: none;
   margin: auto;
 }
+ul a {
+  color: black;
+  font-style: none;
+}
+ul a:hover {
+  color: white;
+  background-color: grey;
+}
 ul .tesla {
   width: 10%;
   border-radius: 85%;
 }
 
 main img {
-  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+main h1 {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  background: #e7c814;
+  box-shadow: 5px 5px 10px grey;
 }/*# sourceMappingURL=styles.css.map */

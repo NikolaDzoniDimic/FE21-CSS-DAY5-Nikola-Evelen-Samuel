@@ -6,15 +6,23 @@ body {
 
 ul {
     display: flex;
-    width: 100%;
     padding: 5%;
     justify-content: center;
     background-color: rgb(231, 200, 20);
+    box-shadow: 5px 10px 10px grey;
     li {
         display: flex;
         align-content: space-between;
         list-style: none;
         margin: auto;
+    }
+    a {
+        color: black;
+        font-style: none;
+    }
+    a:hover {
+        color: white;
+        background-color: grey;
     }
     .tesla {
         width: 10%;
@@ -24,6 +32,20 @@ ul {
 
 main {
     img {
-        max-width: 100%;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+footer {
+    p {
+        text-align: center;
+        background: rgb(231, 200, 20);
+        box-shadow: 5px 5px 10px grey;
     }
 }
