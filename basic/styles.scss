@@ -55,6 +55,9 @@ ul {
 }
 
 main {
+    .mainwrapper {
+        position: relative;
+    }
     img {
         width: 100%;
         display: block;
@@ -63,6 +66,21 @@ main {
     }
     h1 {
         text-align: center;
+        padding: 2rem;
+    }
+}
+
+.emphasized {
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    background: #ffffff94;
+    padding: 2rem;
+    font-size: 3rem;
+    p {
+        width: 100%;
     }
 }
 
@@ -73,6 +91,9 @@ footer {
         box-shadow: 5px 5px 10px grey;
     }
 }
+
+
+/** KURVE BEI NAV **/
 
 #curved-corner-topleft {
     width: 110px;
